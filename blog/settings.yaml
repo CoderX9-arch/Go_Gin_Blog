@@ -1,0 +1,70 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  config: "?parseTime=true"
+  db: gvb_db
+  user: root
+  password: root
+  log_level: dev
+logger:
+  level: info
+  prefix: '[gvb]'
+  director: log
+  show-line: true
+  log-in-console: true
+system:
+  host: 0.0.0.0
+  port: 8080
+  env: release
+redis:
+  host: ""
+  port: 0
+  password: ""
+  db: 0
+  pool_size: 0
+  mini_dle_conns: 0
+site_info:
+  created_at: xxxx
+  bei_an: ""
+  Title: ""
+  QQ_Image: ""
+  version: ""
+  email: ""
+  wechat_image: ""
+  name: ""
+  job: ""
+  addr: ""
+  slogan: ""
+  slogan_en: ""
+  web: ""
+  bilibili_url: ""
+  gitee_url: ""
+  github_url: ""
+qq:
+  app_id: ""
+  key: ""
+  redirect: ""
+qiniu:
+  enable: false
+  accessKey: ""
+  secretKey: ""
+  bucket: xxx
+  CON: ""
+  zone: xx
+  size: 6
+email:
+  host: xxxx
+  port: 0
+  user: xxx
+  password: xxx
+  defalt_form_email: xxx
+  use_ssl: false
+  user_tls: false
+jwy:
+  secret: ""
+  expires: 2
+  issuer: ""
+upload:
+  size: 2
+  path: uploads/file
+
